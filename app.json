@@ -1,8 +1,8 @@
 {
-  "name": "KING-SANDESH-MD",
-  "description": "Javascript WhatsApp bot made by Sandesh Bhashana",
-  "logo": "https://files.catbox.moe/uhys6h.png",
-  "keywords": ["KING-SANDESH-MD"],
+  "name": "KING_DILISHA-MD",
+  "description": "Javascript WhatsApp bot made by KING DILISHA",
+  "logo": "https://github.com/Dilisha-KING/DATABASE/blob/main/Picsart_25-08-21_18-40-36-648.jpg",
+  "keywords": ["KING_DILISHA-MD"],
   "success_url": "/",
 
     "stack": "container",
@@ -16,7 +16,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "KSMD"
+      "value": "D-G-S"
     }, 
       
     "PREFIX": {
@@ -96,27 +96,27 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY KING-SANDESH-MD 🖤*"
+      "value": "*SEEN YOUR STATUS BY KING_DILISHA-MD*"
    
      }, 
     
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "<| 𝐌𝐑 𝐔𝐍𝐊𝐍𝐎𝐖𝐍 🫧"
+      "value": "<|𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 😁"
 }, 
 
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
       "required": false,
-      "value": "94741259325"
+      "value": "94771098429"
 
     }, 
 
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "<| 𝐊𝐈𝐍𝐆-𝐒𝐀𝐍𝐃𝐄𝐒𝐇-𝐌𝐃 𝐕❷🫧"
+      "value": "<| 𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 😁"
 
       }, 
 
@@ -149,13 +149,13 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/m5drmn.png"
+      "value": "https://github.com/Dilisha-KING/DATABASE/blob/main/Picsart_25-08-21_18-40-36-648.jpg"
     },
     
      "FOOTER": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "> *© Powered By King-Sandesh Md V2 💸*"
+      "value": "> ★ Ｄ𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝙳 𝙱𝚈 𝙳𝙸𝙻𝙸𝚂𝙷𝙰 𝚃𝙴𝙲𝙷 ㋡"
     },
 
       "DELETE_LINKS": {
