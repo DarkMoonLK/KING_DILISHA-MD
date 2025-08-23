@@ -1,6 +1,6 @@
-name: ksmd-md
+name: king-dilisha-md
 services:
-  - name: ksmd-md-service
+  - name: king-dilisha-md-service
     type: web
     ports:
       - 5000
