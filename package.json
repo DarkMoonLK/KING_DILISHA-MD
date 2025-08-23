@@ -1,12 +1,12 @@
 {
-  "name": "KING-SANDESH-MD",
+  "name": "KING_DILISHA-MD",
   "version": "2.0.0",
-  "description": "A WhatsApp Bot Created By Mr Unknown",
+  "description": "A WhatsApp Bot Created By KING DILISHA",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name KING-SANDESH-MD",
-    "stop": "pm2 stop KING-SANDESH-MD",
-    "restart": "pm2 restart KING-SANDESH-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name KING_DILISHA-MD",
+    "stop": "pm2 stop KING_DILISHA-MD",
+    "restart": "pm2 restart KING_DILISHA-MD"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "latest",
