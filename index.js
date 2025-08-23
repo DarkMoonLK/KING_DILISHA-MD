@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['94741259325']
+  const ownerNumber = ['94771098429']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("KSMD~", '');
+const sessdata = config.SESSION_ID.replace("KING_DILISHA~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -84,7 +84,7 @@ const port = process.env.PORT || 9090;
   //=============================================
   
   async function connectToWA() {
-  console.log("Connecting to WhatsApp ⏳️...");
+  console.log("𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 Connecting to WhatsApp ⏳️...");
   const { state, saveCreds } = await useMultiFileAuthState(__dirname + '/sessions/')
   var { version } = await fetchLatestBaileysVersion()
   
@@ -111,21 +111,21 @@ const port = process.env.PORT || 9090;
   require("./plugins/" + plugin);
   }
   });
-  console.log('Plugins installed SUCCESSFULLY ✅')
-  console.log('Bot connected to WhatsApp ✅')
+  console.log('𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 Plugins installed SUCCESSFULLY ✅')
+  console.log('𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 connected to WhatsApp ✅')
   
-  let up = `> Connected Successfully 🩷🎀 .
+  let up = `> 𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 .
 ╭───❍「 *✅CONNECTED BOT* 」
-┃ _KING-SANDESH-MD-V2_
+┃ 𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃
 ╰───────────❍
 ╭───❍「 *🌐BOT WEB PAGE* 」
-┃ https://king-sandesh-md-ofc-web.pages.dev/
+┃ https://king-dilisha-md-ofc-web.pages.dev/
 ╰───────────❍
 ╭───❍「 *🫳JOIN CHANNEL* 」
-┃ https://whatsapp.com/channel/0029Vb5saAU4Y9lfzhgBmS2N
+┃ https://whatsapp.com/channel/0029VbBtbUvCMY0BtKH5vB3t
 ╰───────────❍
 ╭───❍「 *👤BOT OWNER* 」
-┃ _Mr Sandesh Bhashana_
+┃ *MR DILISHA TECH* 
 ╰───────────❍
 ╭───❍「 *📈SYSTEM STATUS* 」
 ┃ ░░░░░░░░░░░░░░░░░░░ 100%
@@ -134,9 +134,9 @@ const port = process.env.PORT || 9090;
 ┃ _Configure Your Prefix_ ${prefix}
 ╰───────────❍
 ╭───❍「 *⚙️AUTOMATION BY* 」
-┃ *King-Sandesh Md V2 💸*
+┃ *𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃*
 ╰───────────❍`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://files.catbox.moe/m5drmn.png` }, caption: up })
+    conn.sendMessage(conn.user.id, { image: { url: `https://github.com/Dilisha-KING/DATABASE/blob/main/Picsart_25-08-21_18-40-36-648.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -799,7 +799,7 @@ END:VCARD`,
   }
   
   app.get("/", (req, res) => {
-  res.send("KING-SANDESH-MD V-2 STARTED NOW SAFELY ✅");
+  res.send("𝐊𝐈𝐍𝐆_𝐃𝐈𝐋𝐈𝐒𝐇𝐀-𝐌𝐃 IS CONECTED SUCCESFUL ⬆️");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
